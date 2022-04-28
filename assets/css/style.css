@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation {
+  display: flex;
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+/* COMPONENTS */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 60vw;
+  margin: 0px auto 30px;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  font-size: 38px;
+  font-weight: 700;
+  margin: 20px 0 30px;
+}
+
+.dark {
+  background-color: #000;
+  padding-bottom: 30px;
+}
+
+/* PROJECTS */
+
+.light {
+  color: #fff;
+}
+
+.proj-area {
+  display: flex;
+}
+
+.proj-item {
+  display: block;
+  margin: 0 10px;
+}
+
+/* CONTACT */
+
+.sub-title {
+  text-transform: capitalize;
+  margin: 30px 0;
+}
+
+.social-area {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.social-media {
+  display: block;
+  margin: 0px 30px 40px;
+  padding: 10px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social img {
+  max-width: 80px;
+}
+
+.social-media h3 {
+  font-weight: 400;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.contact-me input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(116, 115, 115);
+}
+
+.contact-me button {
+  height: 38px;
+  padding: 0 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(116, 115, 115);
+}
