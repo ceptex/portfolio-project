@@ -10,7 +10,7 @@ body {
 
 .navigation {
   display: flex;
-  background-color: #000;
+  background-color: #270f27;
   width: 100%;
   height: 80px;
   align-items: center;
@@ -27,9 +27,10 @@ body {
 
 .menu ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #72b48e;
   text-transform: uppercase;
   padding: 20px;
+  font-weight: 700;
 }
 
 /* COMPONENTS */
@@ -48,10 +49,19 @@ body {
   font-size: 38px;
   font-weight: 700;
   margin: 20px 0 30px;
+  color: #5f9c79;
+}
+
+.title-gold h1 {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 20px 0 30px;
+    color: #5f9c79;
 }
 
 .dark {
-  background-color: #000;
+  background-color: #270f27;
   padding-bottom: 30px;
 }
 
@@ -63,6 +73,7 @@ body {
 
 .proj-area {
   display: flex;
+  justify-content: space-between;
 }
 
 .proj-item {
@@ -75,6 +86,7 @@ body {
 .sub-title {
   text-transform: capitalize;
   margin: 30px 0;
+  color: #5f9c79;
 }
 
 .social-area {
@@ -96,7 +108,7 @@ body {
 }
 
 .social img {
-  max-width: 80px;
+  max-width: 50px;
 }
 
 .social-media h3 {
@@ -106,6 +118,7 @@ body {
 .social-media a {
   text-decoration: none;
   color: #000;
+  font-size: 18px;
 }
 
 .contact-me {
