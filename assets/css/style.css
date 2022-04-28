@@ -65,6 +65,12 @@ body {
   padding-bottom: 30px;
 }
 
+/* ABOUT */
+
+.about p a {
+    font-weight: bold;
+}
+
 /* PROJECTS */
 
 .light {
@@ -124,7 +130,7 @@ body {
 .contact-me {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin: 50px 0 10px;
 }
 
 .contact-me input {
@@ -133,10 +139,6 @@ body {
   border: 1px solid rgb(116, 115, 115);
 }
 
-.contact-me button {
-  height: 38px;
-  padding: 0 10px;
-  margin-left: 5px;
-  border-radius: 5px;
-  border: 1px solid rgb(116, 115, 115);
+.contact-me label {
+    margin-right: 10px;
 }
