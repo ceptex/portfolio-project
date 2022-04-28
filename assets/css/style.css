@@ -15,6 +15,9 @@ body {
   height: 80px;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .menu ul {
@@ -69,6 +72,8 @@ body {
 
 .about p a {
     font-weight: bold;
+    text-decoration: none;
+    color: #270f27;
 }
 
 /* PROJECTS */
