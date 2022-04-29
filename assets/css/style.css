@@ -166,7 +166,7 @@ nav {
 .social-area {
   display: flex;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .social-media {
@@ -182,7 +182,7 @@ nav {
 }
 
 .social img {
-  max-width: 50px;
+  width: 45px;
 }
 
 .social-media h3 {
@@ -219,7 +219,8 @@ nav {
 
 footer {
   display: flex;
-  justify-content: space-evenly;
+  height: 60px;
+  justify-content: space-around;
   align-items: center;
   background-color: #270f27;
   color: #fff;
@@ -232,14 +233,15 @@ footer a {
 
 .social-mini {
   display: flex;
+  margin-left: 65px;
 }
 
 .social-mini img {
-  width: 40px;
+  width: 35px;
   margin: 0 10px;
 }
 
 footer h4 {
   font-size: 11px;
-  font-weight: normal;
+  font-weight: bold;
 }
