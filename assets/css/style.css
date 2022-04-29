@@ -114,7 +114,19 @@ nav {
 /* PROJECTS */
 
 .light {
-  color: #fff;
+  margin: 5px;
+  color: rgb(223, 221, 221);
+}
+
+.light ul {
+  margin-left: 20px;
+}
+
+.light a {
+  text-decoration: none;
+  color: rgb(223, 221, 221);
+  font-size: small;
+  font-style: italic;
 }
 
 .proj-area {
@@ -122,9 +134,25 @@ nav {
   justify-content: space-between;
 }
 
+.proj-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
 .proj-item {
   display: block;
+  align-items: center;
+  width: 360px;
+  height: 440px;
   margin: 0 10px;
+  padding: 10px 5px;
+  background-color: #404e7d;
+  border-radius: 3px;
+}
+
+.proj-item img {
+  width: 340px;
 }
 
 /* CONTACT */
