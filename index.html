@@ -16,8 +16,10 @@
   <body>
     <!-- MENU -->
     <div class="navigation">
+      <div class="logo">
+        <a href="./index.html"><img src="./assets/images/raven.png" alt=""></a>
+      </div>
       <nav>
-        <div class="logo"></div>
         <div class="menu">
           <ul>
             <li><a href="#about-anchor">about</a></li>
@@ -31,8 +33,9 @@
     <main>
       <!-- ABOUT -->
       <div class="container">
-        <div class="title"><h1>about</h1></div>
+        <div class="title"><h1>about me</h1></div>
         <div class="about">
+          <div class="about-desc">
           <p id="about-anchor">Heyo! Welcome to my portfolio (always on the making!).</p>
           <br />
           <p>
@@ -54,6 +57,10 @@
             tech power house), Overloadr (my videogames website) and Riot Games
             (global gaming company).
           </p>
+        </div>
+          <div class="about-img">
+            
+          </div>
         </div>
       </div>
       <!-- PROJECTS -->
@@ -108,7 +115,17 @@
             /></a>
             <div class="social-media">
               <h3>
-                <a href="https://github.com/ceptex" target="_blank">ceptex</a>
+                <a href="https://github.com/ceptex" target="_blank">GitHub</a>
+              </h3>
+            </div>
+          </div>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/caioteixeira/" target="_blank"
+              ><img src="assets/images/github.png" alt=""
+            /></a>
+            <div class="social-media">
+              <h3>
+                <a href="https://www.linkedin.com/in/caioteixeira/" target="_blank">LinkedIn</a>
               </h3>
             </div>
           </div>
@@ -119,7 +136,7 @@
             <div class="social-media">
               <h3>
                 <a href="https://twitter.com/caio_o_teixeira" target="_blank"
-                  >@caio_o_teixeira</a
+                  >Twitter</a
                 >
               </h3>
             </div>
@@ -127,7 +144,6 @@
         </div>
         <div class="contact-me">
           <form action="/action_page.php">
-            <label for="email">Contact me:</label>
             <input
               type="email"
               id="email"
@@ -135,10 +151,18 @@
               placeholder="email@email.com"
               required
             />
-            <input type="submit" value="Send!" />
+            <input type="submit" value="Send!" class="send"/>
           </form>
         </div>
       </div>
     </main>
+    <footer>
+      <div><a href="./index.html">Back ↑</a></div>
+      <div class="social-mini">
+        <a href="https://github.com/ceptex" target="_blank"><img src="./assets/images/github-light.png" alt=""></a>
+        <a href="https://twitter.com/caio_o_teixeira" target="_blank"><img src="./assets/images/twitter-light.png" alt=""></a>
+      </div>
+      <div><h4>Created by Caio Teixeira</h4></div>
+    </footer>
   </body>
 </html>
