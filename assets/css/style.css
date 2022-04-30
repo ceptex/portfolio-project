@@ -44,7 +44,7 @@ nav {
   border-bottom: 2px solid #270f27;
   color: #72b48e;
   text-transform: uppercase;
-  padding: 0 20px;
+  padding: 0 20px 26px;
   font-weight: 700;
 }
 
@@ -122,10 +122,9 @@ nav {
 }
 
 .light a {
-  text-decoration: none;
   color: rgb(223, 221, 221);
-  font-size: small;
-  font-style: italic;
+  margin-left: 10px;
+  font-weight: 700;
 }
 
 .proj-area {
